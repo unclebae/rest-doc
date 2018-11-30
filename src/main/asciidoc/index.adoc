@@ -1,0 +1,35 @@
+= Greeting REST Service API Guide
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+= Resources
+
+== Home REST Service
+
+The Home provides the entry point into the service.
+
+=== Accessing the Home GET with provided content
+
+==== Request structure
+
+include::{snippets}/home/http-request.adoc[]
+
+==== Request parameters
+
+include::{snippets}/home/request-parameters.adoc[]
+
+==== Response fields
+
+include::{snippets}/home/response-fields.adoc[]
+
+==== Example response
+
+include::{snippets}/home/http-response.adoc[]
+
+==== CURL request
+
+include::{snippets}/home/curl-request.adoc[]
